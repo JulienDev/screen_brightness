@@ -29,7 +29,7 @@ dependencies:
   screen_brightness_macos: ">=0.1.0 <1.0.0"
 #  screen_brightness_macos:
 #    path: ../screen_brightness_macos
-  screen_brightness_windows: ">=0.1.0 <1.0.0"
+#  screen_brightness_windows: ">=0.1.0 <1.0.0"
 #  screen_brightness_windows:
 #    path: ../screen_brightness_windows
 
@@ -58,8 +58,8 @@ flutter:
         default_package: screen_brightness_ios
       macos:
         default_package: screen_brightness_macos
-      windows:
-        default_package: screen_brightness_windows
+      #windows:
+      #  default_package: screen_brightness_windows
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
